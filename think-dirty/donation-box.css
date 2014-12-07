@@ -87,6 +87,71 @@
     height: 215px;
 }
 
+.donation-box-inner h2 {
+    font-family: 'wisdom_script_airegular';
+    font-size: 35px;
+    color: #000;
+    letter-spacing: 0px;
+}
+
+.donation-box-inner p {
+    font-family: 'brandon_grotesque_regularRg';
+    font-size: 19px;
+    color: #000;
+}
+
+.donation-box-copy {
+    padding-top: 20px;    
+}
+
+.donation-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #000;
+    font-size: 40px;
+}
+
+.donation-handle-container {
+    margin: 0px auto;
+    padding: 0px;
+    width: 100%;
+    height: 115px;
+    position: fixed;
+    top: 0px;
+    z-index: 998;
+    transition: all 0.3s ease-in-out;
+}
+.donation-handle-container-shifted {
+    top: 235px !important;
+}
+.donation-handle {        
+    bottom: -100px;
+    right: 10%;
+    
+    font-size: 100px;
+    position:absolute;
+    transition: all 0.2s ease-in-out;
+}
+.donation-handle:hover {
+    bottom: -120px !important;
+}
+.fixed-header {
+    transition: all 0.3s ease-in-out;    
+}
+
+.fixed-header-shifted {
+    top: 235px !important;
+}
+.shiftable-content {
+    padding-top:0px;
+    transition: all 0.3s ease-in-out;
+}
+.shifted {
+    padding-top:235px;
+}
+
 @media only screen and (max-width: 959px) and (min-width: 768px) {
     .donation-button-container .five {margin-right: 36px !important;}
 }
@@ -150,73 +215,4 @@
     #masterhead {
         margin-top: 91px !important;
     }
-
-}
-
-.donation-box-inner h2 {
-    font-family: 'wisdom_script_airegular';
-    font-size: 35px;
-    color: #000;
-    letter-spacing: 0px;
-}
-
-.donation-box-inner p {
-    font-family: 'brandon_grotesque_regularRg';
-    font-size: 19px;
-    color: #000;
-}
-
-.donation-box-copy {
-    padding-top: 20px;    
-}
-
-.donation-close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-    color: #000;
-    font-size: 40px;
-}
-
-.donation-handle-container {
-    margin: 0px auto;
-    padding: 0px;
-    width: 100%;
-    height: 115px;
-    /* background: #000; */
-    position: fixed;
-    top: 0px;
-    z-index: 998;
-    transition: all 0.3s ease-in-out;
-}
-.donation-handle-container-shifted {
-    top: 235px !important;
-}
-.donation-handle {        
-    bottom: -100px;
-    right: 10%;
-    
-    font-size: 100px;
-    position:absolute;
-    transition: all 0.2s ease-in-out;
-}
-.donation-handle:hover {
-    bottom: -120px !important;
-}
-.fixed-header {
-    transition: all 0.3s ease-in-out;    
-}
-
-
-
-.fixed-header-shifted {
-    top: 235px !important;
-}
-.shiftable-content {
-    padding-top:0px;
-    transition: all 0.3s ease-in-out;
-}
-.shifted {
-    padding-top:235px;
 }

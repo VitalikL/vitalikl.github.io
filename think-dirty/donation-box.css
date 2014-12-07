@@ -143,6 +143,14 @@
         padding-top: 0px !important;    
     }
 
+    .donation-close { 
+        top: 5px !important;
+        right: 5px !important;
+    }
+    #masterhead {
+        margin-top: 91px !important;
+    }
+
 }
 
 .donation-box-inner h2 {
@@ -161,6 +169,16 @@
 .donation-box-copy {
     padding-top: 20px;    
 }
+
+.donation-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #000;
+    font-size: 40px;
+}
+
 .donation-handle-container {
     margin: 0px auto;
     padding: 0px;
@@ -190,7 +208,7 @@
     transition: all 0.3s ease-in-out;    
 }
 
-.fixed-header .container-background {background:#000;}
+
 
 .fixed-header-shifted {
     top: 235px !important;
